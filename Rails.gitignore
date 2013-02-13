@@ -15,8 +15,9 @@
 /log/*.log
 /tmp
 
-# ignore database config
+# Configuration files
 /config/database.yml
+/config/initializers/secret_token.rb
 
 # ignore default test folder
 /test
